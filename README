@@ -1,0 +1,12 @@
+******Replace_Content********
+This tool is used in conjunction with vt_proxy to dynamically replace one image( or pdf) for another image when patterns are matched.
+
+Compiling:
+gcc -o replace_content replace_content.c -lcurl -pthread
+
+*required libaries: libcurl-dev, imagemagick, python, pyPdf
+
+Running:
+resource_image.py -f <input file> -c <config file> [[-o outfile][--dislay]]
+
+
